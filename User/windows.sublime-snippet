@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+import java.io.*;
+import java.util.*;
+class ${TM_FILENAME/(\.\w+)//g}  {
+            $0
+    public static void main(String[] args) throws IOException {
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+        if (System.getProperty("ONLINE_JUDGE") == null) {
+            try {
+                System.setOut(new PrintStream(new FileOutputStream("output.txt")));
+                read = new BufferedReader(new FileReader("input.txt"));
+            } catch (Exception e) {
+            }
+        }
+        /*----------------------------------------------------------------------*/
+            $1
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>win</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
+

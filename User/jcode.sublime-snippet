@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+import java.io.*;
+import java.util.*;
+
+class ${TM_FILENAME/(\.\w+)//g}{
+	public static void main(String[] args) throws IOException {
+	System.setOut(new PrintStream(new FileOutputStream("output.txt")));
+		$0
+	}
+}
+]]></content>
+	<tabTrigger>jcode</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>

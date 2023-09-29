@@ -1,0 +1,52 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[   
+		 {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "var(cyan)",
+            "font_style": "Bold"
+        },
+		{
+            "name": "Function argument",
+            "scope": "variable.parameter - (source.c | source.c++ | source.objc | source.objc++)",
+            "foreground": "var(orange)",
+            "font_style": "Bold"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(blue)",
+            "font_style": "Bold"
+        },
+        {
+            "name": "Language variable",
+            "scope": "variable.language",
+            "foreground": "var(orange)",
+            "font_style": "Bold"
+        },
+		/*{
+    "scope": "source - punctuation - keyword",
+    "foreground": ["hsl(0, 0%, 20%)", "hsl(0, 120%,230%)"]
+         },*/
+		// {
+    //     "name": "Comment",
+    //     "scope": "comment, punctuation.definition.comment",
+    //     // "foreground": "var(blue6)",
+    //     "font_style": "italic"
+    //      },
+           {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "var(green)"
+        },
+
+	]
+}

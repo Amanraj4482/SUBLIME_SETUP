@@ -1,0 +1,26 @@
+{
+	"ignored_packages":
+	[
+	
+		"Vintage",
+	],
+	"color_scheme": "OLED.sublime-color-scheme",
+	"theme": "Default Dark.sublime-theme",
+	"font_size": 10,
+	// "font_face":"Menlo Regular",
+	"font_face":"JetBrains Mono NL SemiBold",
+	"always_promt_for_file_reload": false,
+	"bold_folder_labels": true,
+	"caret_style": "blink",
+	"save_on_focus_lost": true,
+	"hide_pointer_while_typing": true,
+	"tab_size": 8,
+	"highlight_gutter": true,
+	"highlight_line_number": true,
+	"highlight_line": false,
+	"line_padding_top": 4,
+	"line_padding_bottom": 4,
+	"scroll_past_end": true,
+	// "line_numbers": false,
+	// "auto_hide_tabs": true,
+}

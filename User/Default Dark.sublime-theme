@@ -1,0 +1,20 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+	},
+	"rules":
+	[
+	    	{
+             	 "class": "sidebar_label",
+         	"font.size": 12, // increase font size for sidebar folder/files
+        	 "font.face": "Cascadia code" // changing the font face as well
+        	},
+        	{
+             	 "class": "tab_label",
+         	"font.size": 10, // increase font size for sidebar folder/files
+        	 "font.face": "Cascadia code" // changing the font face as well
+        	},
+
+	]
+}

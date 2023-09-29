@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+static void solve(BufferedReader read) throws IOException {
+	$0
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>funSolveJava</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
